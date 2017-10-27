@@ -8,10 +8,11 @@ First we need to install torch, following the installation instructions
 [here](http://torch.ch/docs/getting-started.html#_):
 
 ```
-# in a terminal, run the commands
+# in a terminal, run the commands WITHOUT sudo
 cd ~/
-curl -s https://raw.githubusercontent.com/torch/ezinstall/master/install-deps | bash
 git clone https://github.com/torch/distro.git ~/torch --recursive
+cd ~/torch; bash install-deps;
+#your password
 cd ~/torch; ./install.sh
 ```
 
